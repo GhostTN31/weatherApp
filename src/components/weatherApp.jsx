@@ -91,6 +91,8 @@ const WeatherApp = () => {
     Haze: cloudy,
     Mist: cloudy,
     Drizzle: rainy,
+    Thunderstorm: rainy,
+    Dust: cloudy
   };
 
   const weatherImg = data.weather ? weatherImages[data.weather[0].main] : null;
