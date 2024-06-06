@@ -105,6 +105,8 @@ const WeatherApp = () => {
     Haze: "linear-gradient(to right, #c8c2c6, #e7e3e3)",
     Mist: "linear-gradient(to right, #c8c2c6, #e7e3e3)",
     Drizzle: "linear-gradient(to right, #5bc8fb, #80eaff)",
+    Dust: "linear-gradient(to right, #57d6d4, #71eeec)",
+    Thunderstorm: "linear-gradient(to right, #5bc8fb, #80eaff)" 
   };
 
   const backgroundImage = data.weather
